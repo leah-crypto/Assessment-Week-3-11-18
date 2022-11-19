@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background: lightpink;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid lavenderblush;
 }
 
 ol {
@@ -21,11 +21,11 @@ ol {
 }
 
 a {
-	color: orange;
+	color: lavenderblush;
 }
 
 a:visited {
-	color: crimson;
+	color: magenta;
 }
 
 
@@ -35,4 +35,33 @@ input {
 
 img {
 	max-width: 300px;
+	border-radius: 50%;
+}
+
+body{
+	color: purple
+}
+
+#color{
+	background-color:aquamarine;
+}
+
+#place{
+	background-color: aquamarine;
+}
+
+#ritual{
+	background-color: aquamarine;
+}
+
+.buttons{
+	color: aquamarine;
+	text-decoration: pink;
+	width: 100px;
+	display: block;
+	padding: 14px 28px;
+	font-size: 16px;
+	border-radius: 50%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
