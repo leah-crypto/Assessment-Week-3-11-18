@@ -22,7 +22,7 @@ form.addEventListener('submit', handleSubmit);
 
 var myArray = ["Joes Pizza and Pasta", "The philly shack", "Habaneros", "Magic Spring Roll", "Nepali Chulo Indian Cuisine", "Aladdin Mediterranean Café"];
 
-const button4 = document.querySelector('#restruants');
+const button4 = document.querySelector('#resturants');
 
 const rando = Math.floor(Math.random() * myArray.length);
 
