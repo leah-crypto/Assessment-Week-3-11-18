@@ -4,6 +4,17 @@
 // 	alert("NO TOUCHY!!!!");
 // })
 
+var mee = document.getElementById("me");
+ var kuzcoo = document.getElementById("kuzco");
+
+  mee.onmouseover = function(){
+    kuzcoo.style.display = "block";
+  }
+
+  mee.onmouseout = function(){
+    kuzcoo.style.display = "none";
+  }
+
 const button1 = document.querySelector("#color");
 
 button1.addEventListener("click", () => {

@@ -65,3 +65,11 @@ body{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
+#kuzco{
+	position: absolute;
+	top: 1400px;
+	left: 50px;
+	display: none;
+ }
+ #me:hover + #kuzco {display:block}
